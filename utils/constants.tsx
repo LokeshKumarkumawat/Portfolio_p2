@@ -4,37 +4,25 @@ import { FaPaw, FaMedal, FaGamepad } from 'react-icons/fa';
 
 export const topics = [
   {
-    name: 'development',
+    name: 'ABOUT',
     icon: <BsCode />,
   },
   {
-    name: 'comedy',
+    name: 'SKILLS',
     icon: <BsEmojiSunglasses />,
   },
   {
-    name: 'gaming',
+    name: 'PROJECTS',
     icon: <FaGamepad />,
   },
   {
-    name: 'food',
+    name: 'DESIGNS',
     icon: <GiCakeSlice />,
   },
   {
-    name: 'dance',
+    name: 'CONTACT',
     icon: <GiGalaxy />,
-  },
-  {
-    name: 'beauty',
-    icon: <GiLipstick />,
-  },
-  {
-    name: 'animals',
-    icon: <FaPaw />,
-  },
-  {
-    name: 'sports',
-    icon: <FaMedal />,
-  },
+  }
 ];
 
 export const footerList1 = ['About', 'Newsroom', 'Store', 'Contact', 'Carrers', 'ByteDance', 'Creator Directory']

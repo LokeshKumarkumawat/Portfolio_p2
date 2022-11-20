@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="bg-black">Home</h1>
+      <Hero/>
     </div>
   );
 };
