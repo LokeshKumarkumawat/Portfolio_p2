@@ -33,10 +33,14 @@ module.exports = {
       height: {
         '88vh': '88vh',
       },
-      backgroundImage: {
-        'blurred-img':
-          "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaaJ7s4lqcBF4IDROVPzrlL5fexcwRmDlnuEYQenWTt1DejFY5kmYDref2a0Hp2eE4aw&usqp=CAU')",
-      },
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "868px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
     },
 
 

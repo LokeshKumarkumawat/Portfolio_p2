@@ -1,16 +1,18 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
+import styles from "../style";
+import "../styles/featuredproducts.css";
 
 // INTERNAL IMPORT
 import Navbar from "../components/Navbar";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <div className="gradient-bg-welcome  ">
-      <div className="">
+    <div className=" ">
+      <div className={`${styles.boxWidth}`}>
         <Navbar />
-        <Component {...pageProps} />
       </div>
+      <Component {...pageProps} />
     </div>
   );
 };
